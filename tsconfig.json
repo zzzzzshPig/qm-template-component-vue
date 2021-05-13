@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "qm-design-vue": ["components/index.ts"],
+            "qm-design-vue-es": ["es/index.js"],
+            "qm-design-vue-lib": ["lib/index.js"]
+        },
+        "lib": [
+            "esnext",
+            "dom.iterable",
+            "scripthost",
+            "dom"
+        ],
+        "types": [
+            "webpack-env",
+            "types"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
